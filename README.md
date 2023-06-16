@@ -1,59 +1,54 @@
 # aula1-git-github
 Este repositório é para fins de estudos do módulo git e github. 
 
-- Criar pasta:
+- para criar pasta:
 
 mkdir nome-da-pasta
 
-- para acessar a psta:
+- para acessar pasta:
 
 cd nome-da-pasta
 
-- lista o que tem dentro da pasta 
-
-ls 
-
-
--sair da pasta
+- para sair de uma pasta
 
 cd ..
 
--iniciarndo o git 
+- para iniciar repositório 
 
 git init
 
--como criar um arquivo na pasta
+- listar arquivos e pastas
 
-echo "# aula1" >> nome-do-arquivo.extensão
+ls
 
-- para adicionar arquivos e pasta
+- para criar arquivos 
 
-- Para adicionar conteúdo (Arquivos)
+touch nome-do-arquivo.extensão ou pasta
+
+- para adicionar conteúdo(arquivo/pasta)
 
 git add nome-do-arquivo-pasta
 
-- Para adicionar todos os aquivos/pastas
+- para adicionar todos os arquivos/pastas
 
 git add .
 
--Para refazer um add expercífico
+- para desfazer um add específico
 
 git reset nome-do-arquivo
 
--Para refazer um add geral
+- para desfazer um add geral(add .)
 
- 
+git reset
 
-- Para registrar o comentário (commit)
+- para registrar o comentário (commit)
 
-git commit -m "Comentário aqui"
+git commit -m "comentário aqui"
 
-git reset [arquivo]
-
--Retorna ao último commit, mantendo as alterações feitas nos arquivos
+- Para retornar ao último commit, mantendo as alterações feitas nos arquivos
 
 git reset --soft HEAD~1
 
-Retona ao último commit, removendo as alterações feitas nos arquivos
+- Para retornar ao último commit, removendo as alterações feitas nos arquivos
 
 git reset --hard HEAD~1
