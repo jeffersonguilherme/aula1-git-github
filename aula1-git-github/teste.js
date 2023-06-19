@@ -1,1 +1,0 @@
-const fruta = "marça";
