@@ -8,20 +8,28 @@
 </head>
 <body>
     
-    <main>
-        <form>
+    <main class="container">
+        <h1>Calculadora de IMC</h1>
+        <div class="calculadora">
+            <div class="elementos">
+                <form>
 
-            <label for="altura">Sua Altura</label>
-            <input type="number" name="altura" id="altura">
-            <label for="peso">Seu peso</label>
-            <input type="number" name="peso" id="peso">
-            <button>Calcular IMC</button>
-            
-        </form>
-
-        <section class="resultado">
-            <h1>Valor</h1>
-        </section>
+                    <label for="altura">Sua Altura</label>
+                    <input type="number" name="altura" id="altura" value="">
+                    <label for="peso">Seu peso</label>
+                    <input type="number" name="peso" id="peso" value="">
+                 
+                </form>
+                
+                <button onclick="calculaIMC()">Calcular IMC</button>  
+            </div>
+             
+            <section class="resultado">
+                <h1 id="resultadoJS">IMC</h1>
+                <p id="nivel">Classificação</p>
+            </section>
+        </div>
+       
     </main>
     <script src="./app.js"></script>
 </body>
