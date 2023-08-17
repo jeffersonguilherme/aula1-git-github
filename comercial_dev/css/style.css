@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagina {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid black;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.bg-login {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login  h2 {
+    margin: 30px;
+}
+
+.login form .nome {
+    margin-bottom: 20px;
+}
+
+.login form .senha {
+    margin-bottom: 20px;
+}
+.login form a {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background: red;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
